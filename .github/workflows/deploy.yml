@@ -32,6 +32,18 @@ jobs:
         run: cd portfolio && npm install
       - name: Build with Next.js
         run: cd portfolio && npm run build
+      - name: Find build output
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Files in portfolio directory:"
+          ls -la portfolio/
+          echo "Looking for .next directory:"
+          ls -la portfolio/.next || echo "No .next directory found"
+          echo "Looking for out directory:"
+          ls -la portfolio/out || echo "No out directory found"
+          echo "All build outputs:"
+          find portfolio -type d -name "out" -o -name ".next" -o -name "dist"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3  # Make sure this is v3, not v4
         with:
