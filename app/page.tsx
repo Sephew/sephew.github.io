@@ -175,10 +175,10 @@ const ParallaxPortfolio = () => {
                 About <span className="text-green-400">Me</span>
               </h2>
               <p className="text-gray-300 mb-4">
-                {"I'm a systems engineer specializing in robotics and automation, with experience in designing and implementing cutting-edge solutions for industrial and research applications."}
+                I&apos;m a systems engineer specializing in robotics and automation, with experience in designing and implementing cutting-edge solutions for industrial and research applications.
               </p>
               <p className="text-gray-300 mb-6">
-                {"My approach combines theoretical knowledge with practical implementation, ensuring that complex problems are solved with elegant and efficient systems."}
+                My approach combines theoretical knowledge with practical implementation, ensuring that complex problems are solved with elegant and efficient systems.
               </p>
               <div className="flex space-x-4">
                 <div className="bg-slate-800/50 border border-slate-700/50 rounded-lg p-4 flex-1">
@@ -242,10 +242,10 @@ const ParallaxPortfolio = () => {
       <div className="relative py-24 bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">
-            Let's <span className="text-green-400">Connect</span>
+            Let&apos;s <span className="text-green-400">Connect</span>
           </h2>
           <p className="text-gray-300 mb-12 max-w-2xl mx-auto">
-            {"Interested in working together? Let's discuss how my expertise in robotics and systems design can bring your ideas to life."}
+            Interested in working together? Let's discuss how my expertise in robotics and systems design can bring your ideas to life.
           </p>
           <button className="bg-gradient-to-r from-green-500 to-blue-600 px-8 py-4 rounded-lg font-medium text-lg">
             Get In Touch
