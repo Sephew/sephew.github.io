@@ -245,7 +245,7 @@ const ParallaxPortfolio = () => {
             Let&apos;s <span className="text-green-400">Connect</span>
           </h2>
           <p className="text-gray-300 mb-12 max-w-2xl mx-auto">
-            Interested in working together? Let's discuss how my expertise in robotics and systems design can bring your ideas to life.
+            Interested in working together? Let&apos;s discuss how my expertise in robotics and systems design can bring your ideas to life.
           </p>
           <button className="bg-gradient-to-r from-green-500 to-blue-600 px-8 py-4 rounded-lg font-medium text-lg">
             Get In Touch
