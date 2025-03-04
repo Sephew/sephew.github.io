@@ -1,4 +1,3 @@
-"use client";
 import React, { useState, useEffect } from 'react';
 import { Cpu, Layers, Code, Database, Grid, Zap, ArrowDownCircle, Plus, Monitor } from 'lucide-react';
 
